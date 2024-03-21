@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.marlonsilva.agredadorinvestimento.dto.CreateUserDto;
 import br.com.marlonsilva.agredadorinvestimento.entity.UserEntity;
-import br.com.marlonsilva.service.UserService;
+import br.com.marlonsilva.agredadorinvestimento.entity.service.UserService;
 
 @RestController
 @RequestMapping("/users")

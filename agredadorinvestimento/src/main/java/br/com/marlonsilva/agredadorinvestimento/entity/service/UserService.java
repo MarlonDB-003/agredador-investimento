@@ -1,4 +1,4 @@
-package br.com.marlonsilva.service;
+package br.com.marlonsilva.agredadorinvestimento.entity.service;
 
 import java.time.Instant;
 import java.util.UUID;
