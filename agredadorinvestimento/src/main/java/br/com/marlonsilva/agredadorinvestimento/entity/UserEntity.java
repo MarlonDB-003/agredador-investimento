@@ -31,23 +31,23 @@ public class UserEntity {
     private String password;
 
     @CreationTimestamp
-    private Instant creationTimeStamp;
+    private Instant creationTimestamp;
 
     @UpdateTimestamp
-    private Instant updateTimeStamp;
+    private Instant updateTimestamp;
 
     public UserEntity(){
 
     }
 
-    public UserEntity(UUID userId, String username, String email, String password, Instant creationTimeStamp,
-            Instant updateTimeStamp) {
+    public UserEntity(UUID userId, String username, String email, String password, Instant creationTimestamp,
+            Instant updateTimestamp) {
         this.userId = userId;
         this.username = username;
         this.email = email;
         this.password = password;
-        this.creationTimeStamp = creationTimeStamp;
-        this.updateTimeStamp = updateTimeStamp;
+        this.creationTimestamp = creationTimestamp;
+        this.updateTimestamp = updateTimestamp;
     }
 
     public UUID getUserId() {
@@ -82,20 +82,20 @@ public class UserEntity {
         this.password = password;
     }
 
-    public Instant getCreationTimeStamp() {
-        return creationTimeStamp;
+    public Instant getCreationTimestamp() {
+        return creationTimestamp;
     }
 
-    public void setCreationTimeStamp(Instant creationTimeStamp) {
-        this.creationTimeStamp = creationTimeStamp;
+    public void setCreationTimestamp(Instant creationTimestamp) {
+        this.creationTimestamp = creationTimestamp;
     }
 
-    public Instant getUpdateTimeStamp() {
-        return updateTimeStamp;
+    public Instant getUpdateTimestamp() {
+        return updateTimestamp;
     }
 
-    public void setUpdateTimeStamp(Instant updateTimeStamp) {
-        this.updateTimeStamp = updateTimeStamp;
+    public void setUpdateTimestamp(Instant updateTimestamp) {
+        this.updateTimestamp = updateTimestamp;
     }
-    
+
 }
